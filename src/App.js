@@ -5,7 +5,6 @@ import Transaction from "./Transaction"
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
       <Transaction/>
     </div>
   );
