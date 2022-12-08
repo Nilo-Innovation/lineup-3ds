@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lineup3ds-dev-102701-authRole",
+      "UnauthRoleArn": "arn:aws:iam::052463096984:role/amplify-lineup3ds-dev-102701-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::052463096984:role/amplify-lineup3ds-dev-102701-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-lineup3ds-dev-102701-deployment",
+      "UnauthRoleName": "amplify-lineup3ds-dev-102701-unauthRole",
+      "StackName": "amplify-lineup3ds-dev-102701",
+      "StackId": "arn:aws:cloudformation:us-east-1:052463096984:stack/amplify-lineup3ds-dev-102701/26843310-7715-11ed-8c95-0aedb7329547",
+      "AmplifyAppId": "di6zoj4mf2pmd"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "di6zoj4mf2pmd",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
