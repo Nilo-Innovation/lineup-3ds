@@ -20,7 +20,9 @@ export default class Transaction extends React.Component {
 // })
 
     componentDidMount() {
-        axios.get ("https://dev.lineupapp.digital/webhook-service/webhook/transaction/" + "trtxairtgbetuh2z6uxy", {
+        const queryParams = new URLSearchParams(window.location.search)
+        const transactionId = queryParams.get("id")
+        axios.get ("https://dev.lineupapp.digital/webhook-service/webhook/transaction/" + transactionId, {
             headers: {
                 'Content-Type': 'application/json'
             }
