@@ -27,7 +27,7 @@ function Transaction() {
         .then((response) => {
           const transaction = response.data;
           console.log(transaction);
-          setTransaction({ transaction });
+          setTransaction(transaction);
         })
         .catch((error) => {
           if (error.response) {
@@ -39,7 +39,7 @@ function Transaction() {
     }
 
     init();
-  }, [transactionId]);
+  }, {transactionId});
 
   return (
     <div className="transaction">
